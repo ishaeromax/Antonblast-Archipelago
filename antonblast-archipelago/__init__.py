@@ -15,7 +15,8 @@ class AntonblastAPWorld(World):
     game = "ANTONBLAST"
 
     # Set item_name_to_id to the ANTONBLAST_ITEMS_NAME_TO_ID that we have in items. 
-    item_name_to_id = items.ANTONBLAST_ITEMS_NAME_TO_ID
+    # item_name_to_id = items.ANTONBLAST_ITEMS_NAME_TO_ID this is old already from the old version of the
+    # items script, so its a TODO to later on change this
 
     # Empty for now.
     location_name_to_id = {}
