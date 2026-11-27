@@ -1,5 +1,6 @@
 from worlds.AutoWorld import World
 
+# TODO: locations not yet done
 from . import items, locations
 
 class AntonblastAPWorld(World):
@@ -15,8 +16,11 @@ class AntonblastAPWorld(World):
     game = "ANTONBLAST"
 
     # Set item_name_to_id to the ANTONBLAST_ITEMS_NAME_TO_ID that we have in items. 
-    # item_name_to_id = items.ANTONBLAST_ITEMS_NAME_TO_ID this is old already from the old version of the
-    # items script, so its a TODO to later on change this
+    item_name_to_id = items.ANTONBLAST_ITEMS_NAME_TO_ID
 
+    # Set item_name_groups to the ANTONBLAST_ITEMS_GROUPS that we have in items.
+    item_name_groups = items.ANTONBLAST_ITEMS_GROUPS
+
+    # TODO: locations not yet done
     # Empty for now.
     location_name_to_id = {}
