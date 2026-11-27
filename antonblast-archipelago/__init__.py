@@ -3,7 +3,7 @@ from worlds.AutoWorld import World
 from . import items, locations
 
 class AntonblastAPWorld(World):
-    # Haero TODO: Change this later when we have a proper good description for the APWORLD.
+    # Haero TODO: Change this later when we have a proper good description for the APWORLD class.
     """
     ANTONBLAST is a fast-paced explosive action platformer that's all about destruction.
     Play as the enraged Dynamite Anton (or his cranked-out coworker Annie) 
